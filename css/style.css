@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.my_top-logo-img{
+    width: 80px;
+    margin: 15px 0;
+}
+
+.my_nav-logo-img{
+    width: 40px;
+}
+
+.jumbotron{
+    height: 800px;
+    min-height: 800px;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position:center;
+    margin-top: ; /* da aggiungere dopo la creazione della navbar*/
+}
+
+.my_jumbotron-logo-img{
+    width: 200px;
+}
