@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+header{
+    min-width: 110px;
+}
+
 .my_top-logo-img{
     width: 80px;
     margin: 15px 0;
@@ -13,15 +17,24 @@
     width: 40px;
 }
 
+.my_nav-lens-img{
+    width: 20px;
+}
+
 .jumbotron{
     height: 800px;
     min-height: 800px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position:center;
-    margin-top: ; /* da aggiungere dopo la creazione della navbar*/
+    margin-top: 110px;
 }
 
 .my_jumbotron-logo-img{
     width: 200px;
 }
+
+.my_img_list{
+    width: 100%;
+}
+
