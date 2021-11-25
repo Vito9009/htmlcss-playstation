@@ -22,8 +22,8 @@ header{
 }
 
 .jumbotron{
-    height: 800px;
-    min-height: 800px;
+    height: 900px;
+    min-height: 900px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position:center;
