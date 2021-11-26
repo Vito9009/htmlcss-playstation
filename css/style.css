@@ -8,6 +8,14 @@ body{
     min-width: 450px;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
 header{
     min-width: 110px;
 }
@@ -83,3 +91,6 @@ img{
     border-radius: 10px;
 }
 
+.my_logo-language{
+    width: 20px;
+}
