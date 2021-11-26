@@ -66,3 +66,19 @@ img{
 .my_dropmenu-col-width{
     width: 100px;
 }
+
+.my_ps-4-height{
+    height: 300px;
+}
+
+.my_width-60{
+    width: 60%;
+}
+
+.my_width-200px{
+    width: 200px;
+}
+
+.my_img-border-radius{
+    border-radius: 10px;
+}
