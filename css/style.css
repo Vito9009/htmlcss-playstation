@@ -146,6 +146,38 @@ img{
     text-decoration: underline;
 }
 
+.my_padding-btn{
+    padding: .375rem .2rem !important; 
+}
+
+.my_white-border-blue-btn{
+    border: 3px solid rgb(45, 100, 230);
+    border-radius: 50rem;
+    padding: 2px 30px;
+    transition: 0.3s;
+}
+
+.my_white-border-grey-btn{
+    border: 3px solid rgb(54, 54, 54);
+    border-radius: 50rem;
+    padding: 2px 20px;
+    transition: 0.3s;
+}
+
+.my_white-border-red-btn{
+    border: 3px solid rgb(205, 61, 15);
+    border-radius: 50rem;
+    padding: 2px 20px;
+    transition: 0.3s;
+}
+
+.my_white-border-light-grey-btn{
+    border: 3px solid rgb(245, 245, 245);
+    border-radius: 50rem;
+    padding: 2px 20px;
+    transition: 0.3s;
+}
+
 /* COLORI */
 
 .my_bg-white{
@@ -180,6 +212,18 @@ img{
     background-color: rgb(45, 100, 230);
 }
 
+.my_text-blue-btn{
+    color: rgb(45, 100, 230);
+}
+
+.my_btn-bg-light-grey{
+    background-color: rgb(245, 245, 245);
+}
+
+.my_btn-bg-light-grey-ps-plus{
+    background-color: rgb(217, 218, 220);
+}
+
 /*HOVER*/
 
 .my_nav-ps-icon:hover{
@@ -206,34 +250,33 @@ img{
     opacity: 1;
 }
 
-.my_white-border-blue-btn{
-    border: 3px solid rgb(45, 100, 230);
-    border-radius: 50rem;
-    padding: 2px 30px;
-    transition: 0.3s;
-}
-
-
-.my_padding-btn{
-    padding: .375rem .2rem !important; 
-}
-
 .my_padding-btn:hover .my_white-border-blue-btn{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 50rem;
     padding: 2px 30px;
 }
 
-.my_white-border-grey-btn{
-    border: 3px solid rgb(54, 54, 54);
-    border-radius: 50rem;
-    padding: 2px 20px;
-    transition: 0.3s;
-}
-
 .my_padding-btn:hover .my_white-border-grey-btn{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 50rem;
     padding: 2px 20px;
+}
+
+.my_padding-btn:hover .my_white-border-red-btn{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50rem;
+    padding: 2px 20px;
+}
+
+.my_padding-btn:hover .my_white-border-light-grey-btn{
+    border: 3px solid rgb(22, 28, 59);
+    border-radius: 50rem;
+    padding: 2px 20px;
+}
+
+.my_btn-border-grey:hover{
+    box-shadow: 0 0 0 0.18rem rgba(217, 218, 220, 0.4);
+    transition: 0.3s;
+    color: rgb(45, 100, 230);
 }
 
