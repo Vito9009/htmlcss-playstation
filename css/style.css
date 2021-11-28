@@ -160,7 +160,7 @@ img{
 .my_white-border-grey-btn{
     border: 3px solid rgb(54, 54, 54);
     border-radius: 50rem;
-    padding: 2px 20px;
+    padding: 2px 10px;
     transition: 0.3s;
 }
 
@@ -243,7 +243,7 @@ img{
 }
 
 .my_slide-up-thumbnail:hover img{
-    margin-top: -15px; 
+    margin-top: -10px; 
 }
 
 .my_ps5-opacity:hover{
@@ -259,7 +259,7 @@ img{
 .my_padding-btn:hover .my_white-border-grey-btn{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 50rem;
-    padding: 2px 20px;
+    padding: 2px 10px;
 }
 
 .my_padding-btn:hover .my_white-border-red-btn{
@@ -280,3 +280,6 @@ img{
     color: rgb(45, 100, 230);
 }
 
+.my_rem-06{
+    font-size: 0.8rem;
+}
