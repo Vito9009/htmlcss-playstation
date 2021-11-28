@@ -12,8 +12,33 @@ ul{
     list-style: none;
 }
 
+.my_ul-nav{
+    list-style: square;
+    color: rgb(101, 155, 202);
+}
+
+.my_ul-li-nav{
+    color: black;
+}
+
+.my_btn-bg-grey{
+    background-color: rgb(54, 54, 54);
+}
+
+.my_btn-bg-red{
+    background-color: rgb(205, 61, 15);
+}
+
+.my_btn-bg-blue{
+    background-color: rgb(45, 100, 230);
+}
+
 a{
     text-decoration: none;
+}
+
+.dropdown-toggle::after {
+    display:none;
 }
 
 header{
@@ -63,20 +88,46 @@ img{
     height: 100%;
 }
 
+.my_game-list{
+    width: 90%;
+}
+
+.my_slide-up-thumbnail{
+    transition: margin-top 1s;
+    margin-top: 0;
+}
+
+.my_border-game-list{
+    border: 1px solid rgb(101, 155, 202);
+    border-radius: 10px;
+}
+
 .my_box-ps5-device{
     height: 180px;
 }
 
-.my_nav-item-img{
-    width: 100px;
+.my_nav-sub-link{
+    margin-right: 30px;
+}
+
+.my_nav-sub-link-a{
+    color: rgb(0, 0, 0);
 }
 
 .my_dropmenu-col-width{
-    width: 100px;
+    width: 120px;
 }
 
-.my_ps-4-height{
-    height: 300px;
+.my_nav-chevron, .my_nav-chevron-hover{
+    width: 10px;
+}
+
+.my_nav-chevron{
+    display: inline-block;
+}
+
+.my_nav-chevron-hover{
+    display: none;
 }
 
 .my_width-60{
@@ -93,4 +144,56 @@ img{
 
 .my_logo-language{
     width: 20px;
+}
+
+.my_cursor{
+    cursor: pointer;
+}
+
+.my_info-footer{
+    text-decoration: underline;
+}
+
+/* COLORI */
+
+.my_bg-white{
+    background-color: rgb(255, 255, 255);
+}
+
+.my_bg-grey{
+    background-color: rgb(190, 188, 187);
+}
+
+.my_bg-blue{
+    background-color: rgb(22, 28, 59);
+}
+
+.my_bg-playstation-blue{
+    background-color: rgb(0, 67, 156);
+}
+
+/*HOVER*/
+
+.my_nav-ps-icon:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.3)!important;
+}
+
+.nav-item:hover .my_nav-chevron{
+    display: none;
+}
+
+.nav-item:hover .my_nav-chevron-hover{
+    display: inline-block;
+}
+
+.my_nav-sub-link-a:hover{
+    color: rgb(101, 155, 202);
+}
+
+.my_slide-up-thumbnail:hover img{
+    margin-top: -15px; 
+}
+
+.my_ps5-opacity:hover{
+    opacity: 0.5;
 }
