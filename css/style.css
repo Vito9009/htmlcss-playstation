@@ -21,18 +21,6 @@ ul{
     color: black;
 }
 
-.my_btn-bg-grey{
-    background-color: rgb(54, 54, 54);
-}
-
-.my_btn-bg-red{
-    background-color: rgb(205, 61, 15);
-}
-
-.my_btn-bg-blue{
-    background-color: rgb(45, 100, 230);
-}
-
 a{
     text-decoration: none;
 }
@@ -134,6 +122,10 @@ img{
     width: 60%;
 }
 
+.my_ps5-opacity{
+    opacity: 0.5;
+}
+
 .my_width-200px{
     width: 200px;
 }
@@ -172,6 +164,22 @@ img{
     background-color: rgb(0, 67, 156);
 }
 
+.my_blue-text-color{
+    color: rgb(12, 120, 208);
+}
+
+.my_btn-bg-grey{
+    background-color: rgb(54, 54, 54);
+}
+
+.my_btn-bg-red{
+    background-color: rgb(205, 61, 15);
+}
+
+.my_btn-bg-blue{
+    background-color: rgb(45, 100, 230);
+}
+
 /*HOVER*/
 
 .my_nav-ps-icon:hover{
@@ -195,5 +203,37 @@ img{
 }
 
 .my_ps5-opacity:hover{
-    opacity: 0.5;
+    opacity: 1;
 }
+
+.my_white-border-blue-btn{
+    border: 3px solid rgb(45, 100, 230);
+    border-radius: 50rem;
+    padding: 2px 30px;
+    transition: 0.3s;
+}
+
+
+.my_padding-btn{
+    padding: .375rem .2rem !important; 
+}
+
+.my_padding-btn:hover .my_white-border-blue-btn{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50rem;
+    padding: 2px 30px;
+}
+
+.my_white-border-grey-btn{
+    border: 3px solid rgb(54, 54, 54);
+    border-radius: 50rem;
+    padding: 2px 20px;
+    transition: 0.3s;
+}
+
+.my_padding-btn:hover .my_white-border-grey-btn{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50rem;
+    padding: 2px 20px;
+}
+
