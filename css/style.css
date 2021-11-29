@@ -103,7 +103,7 @@ img{
 }
 
 .my_nav-chevron, .my_nav-chevron-hover{
-    width: 10px;
+    width: 8px;
 }
 
 .my_nav-chevron{
@@ -255,7 +255,7 @@ img{
 }
 
 .my_padding-btn:hover .my_white-border-red-btn{
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 50rem;
     padding: 2px 20px;
 }
@@ -274,6 +274,36 @@ img{
 
 .my_rem-08{
     font-size: 0.8rem;
+}
+
+.my_rem-09{
+    font-size: 0.9rem;
+}
+
+.my_rem-1_2{
+    font-size: 1.2rem;
+}
+
+.my_rem-1_3{
+    font-size: 1.3rem;
+}
+
+.my_ps5-img-device{
+    width: 60%;
+}
+
+.my_underline-ps-relative{
+    position: relative;
+}
+
+.my_underline-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(0, 114, 206);
+    opacity: 1;
+    padding-bottom: 3px;
 }
 
 .my_outline-img-game-list{
