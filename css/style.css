@@ -13,7 +13,7 @@ ul{
 }
 
 .my_ul-nav{
-    list-style: square;
+    list-style: disc;
     color: rgb(101, 155, 202);
 }
 
@@ -280,6 +280,21 @@ img{
     color: rgb(45, 100, 230);
 }
 
-.my_rem-06{
+.my_rem-08{
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 767px){
+    .my_btn-grey-navbar{
+        min-width: 180px;
+    }
+    .my_padding-btn:hover .my_white-border-grey-btn{
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50rem;
+        padding: 2px 60px;
+    }
+
+    .my_border-lens{
+        border: 2px solid black;
+    }
 }
