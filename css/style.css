@@ -4,26 +4,7 @@
     box-sizing: border-box;
 }
 
-ul{
-    list-style: none;
-}
-
-.my_ul-nav{
-    list-style: disc;
-    color: rgb(101, 155, 202);
-}
-
-.my_ul-li-nav{
-    color: black;
-}
-
-a{
-    text-decoration: none;
-}
-
-.dropdown-toggle::after {
-    display:none;
-}
+/*HEADER*/
 
 header{
     min-width: 110px;
@@ -34,6 +15,20 @@ header{
     margin: 15px 0;
 }
 
+
+.my_ul-nav{
+    list-style: disc;
+    color: rgb(101, 155, 202);
+}
+
+.my_ul-li-nav{
+    color: black;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
 .my_nav-logo-img{
     width: 40px;
 }
@@ -42,22 +37,59 @@ header{
     width: 20px;
 }
 
-.jumbotron{
+.my_nav-sub-link{
+    margin-right: 30px;
+}
+
+.my_nav-sub-link-a{
+    color: rgb(0, 0, 0);
+}
+
+.my_dropmenu-col-width{
+    width: 120px;
+}
+
+.my_nav-chevron{
+    display: inline-block;
+}
+
+.my_nav-chevron-hover{
+    display: none;
+}
+
+/*MEDIA QUERY NAV*/
+
+@media screen and (max-width: 767px){
+    .my_btn-grey-navbar{
+        min-width: 180px;
+    }
+    .my_padding-btn:hover .my_white-border-grey-btn{
+        border: 3px solid rgb(255, 255, 255);
+        border-radius: 50rem;
+        padding: 2px 60px;
+    }
+
+    .my_border-lens{
+        border: 2px solid black;
+    }
+}
+
+/*JUMBO*/
+
+.jumbotron, .jumbotron-main{
     height: 900px;
     min-height: 900px;
-    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position:center;
     margin-top: 110px;
 }
 
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+}
+
 .jumbotron-main{
-    height: 900px;
-    min-height: 900px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-position:center;
-    margin-top: 110px;
 }
 
 .my_jumbotron-logo-img{
@@ -65,12 +97,10 @@ header{
 }
 
 .my_jumbotron-main-logo-img{
-    width: 400px;
+    max-width: 400px;
 }
-img{
-    width: 100%;
-    height: 100%;
-}
+
+/*MAIN*/
 
 .my_game-list{
     width: 90%;
@@ -90,28 +120,111 @@ img{
     height: 180px;
 }
 
-.my_nav-sub-link{
-    margin-right: 30px;
+.my_outline-img-game-list{
+    outline: 2px solid rgb(255, 255, 255);
 }
 
-.my_nav-sub-link-a{
-    color: rgb(0, 0, 0);
+.my_thumb-box-shadow{
+    box-shadow: 1px 1px 0 3px rgb(0, 114, 206), -1px -1px 0 3px rgb(0, 114, 206);
 }
 
-.my_dropmenu-col-width{
-    width: 120px;
+.my_ps5-img-device{
+    width: 60%;
+}
+
+.my_underline-ps-relative{
+    position: relative;
+}
+
+.my_underline-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(0, 114, 206);
+    opacity: 1;
+    padding-bottom: 3px;
+}
+
+/*HOVER*/
+
+.my_nav-ps-icon:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.3)!important;
+}
+
+.nav-item:hover .my_nav-chevron{
+    display: none;
+}
+
+.nav-item:hover .my_nav-chevron-hover{
+    display: inline-block;
+}
+
+.my_nav-sub-link-a:hover{
+    color: rgb(101, 155, 202);
+}
+
+.my_slide-up-thumbnail:hover img{
+    margin-top: -5px; 
+}
+
+.my_ps5-opacity:hover{
+    opacity: 1;
+}
+
+.my_padding-btn:hover .my_white-border-blue-btn{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50rem;
+    padding: 2px 30px;
+}
+
+.my_padding-btn:hover .my_white-border-grey-btn{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50rem;
+    padding: 2px 10px;
+}
+
+.my_padding-btn:hover .my_white-border-red-btn{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50rem;
+    padding: 2px 20px;
+}
+
+.my_padding-btn:hover .my_white-border-light-grey-btn{
+    border: 3px solid rgb(22, 28, 59);
+    border-radius: 50rem;
+    padding: 2px 20px;
+}
+
+.my_btn-border-grey:hover{
+    box-shadow: 0 0 0 0.18rem rgba(217, 218, 220, 0.4);
+    transition: 0.3s;
+    color: rgb(45, 100, 230);
 }
 
 .my_nav-chevron, .my_nav-chevron-hover{
     width: 8px;
 }
 
-.my_nav-chevron{
-    display: inline-block;
+/*FOOTER*/
+
+.my_info-footer{
+    text-decoration: underline;
 }
 
-.my_nav-chevron-hover{
-    display: none;
+/*GENERALI*/
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
 
 .my_width-60{
@@ -134,9 +247,29 @@ img{
     cursor: pointer;
 }
 
-.my_info-footer{
-    text-decoration: underline;
+.my_border-radius-img{
+    border-radius: 20px;
 }
+
+/*MY FONT SIZE*/
+
+.my_rem-08{
+    font-size: 0.8rem;
+}
+
+.my_rem-09{
+    font-size: 0.9rem;
+}
+
+.my_rem-1_2{
+    font-size: 1.2rem;
+}
+
+.my_rem-1_3{
+    font-size: 1.3rem;
+}
+
+/*BOTTONI*/
 
 .my_padding-btn{
     padding: .375rem .2rem !important; 
@@ -214,121 +347,4 @@ img{
 
 .my_btn-bg-light-grey-ps-plus{
     background-color: rgb(217, 218, 220);
-}
-
-/*HOVER*/
-
-.my_nav-ps-icon:hover{
-    box-shadow: 0 1rem 3rem rgba(0,0,0,.3)!important;
-}
-
-.nav-item:hover .my_nav-chevron{
-    display: none;
-}
-
-.nav-item:hover .my_nav-chevron-hover{
-    display: inline-block;
-}
-
-.my_nav-sub-link-a:hover{
-    color: rgb(101, 155, 202);
-}
-
-.my_slide-up-thumbnail:hover img{
-    margin-top: -5px; 
-}
-
-.my_ps5-opacity:hover{
-    opacity: 1;
-}
-
-.my_padding-btn:hover .my_white-border-blue-btn{
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50rem;
-    padding: 2px 30px;
-}
-
-.my_padding-btn:hover .my_white-border-grey-btn{
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 50rem;
-    padding: 2px 10px;
-}
-
-.my_padding-btn:hover .my_white-border-red-btn{
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 50rem;
-    padding: 2px 20px;
-}
-
-.my_padding-btn:hover .my_white-border-light-grey-btn{
-    border: 3px solid rgb(22, 28, 59);
-    border-radius: 50rem;
-    padding: 2px 20px;
-}
-
-.my_btn-border-grey:hover{
-    box-shadow: 0 0 0 0.18rem rgba(217, 218, 220, 0.4);
-    transition: 0.3s;
-    color: rgb(45, 100, 230);
-}
-
-.my_rem-08{
-    font-size: 0.8rem;
-}
-
-.my_rem-09{
-    font-size: 0.9rem;
-}
-
-.my_rem-1_2{
-    font-size: 1.2rem;
-}
-
-.my_rem-1_3{
-    font-size: 1.3rem;
-}
-
-.my_ps5-img-device{
-    width: 60%;
-}
-
-.my_underline-ps-relative{
-    position: relative;
-}
-
-.my_underline-img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    color: rgb(0, 114, 206);
-    opacity: 1;
-    padding-bottom: 3px;
-}
-
-.my_outline-img-game-list{
-    outline: 2px solid rgb(255, 255, 255);
-}
-
-.my_thumb-box-shadow{
-    box-shadow: 1px 1px 0 3px rgb(0, 114, 206), -1px -1px 0 3px rgb(0, 114, 206);
-}
-
-.my_border-radius-img{
-    border-radius: 20px;
-}
-
-@media screen and (max-width: 767px){
-    .my_btn-grey-navbar{
-        min-width: 180px;
-    }
-    .my_padding-btn:hover .my_white-border-grey-btn{
-        border: 3px solid rgb(255, 255, 255);
-        border-radius: 50rem;
-        padding: 2px 60px;
-    }
-
-    .my_border-lens{
-        border: 2px solid black;
-    }
 }
