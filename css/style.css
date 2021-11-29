@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    min-width: 450px;
-}
-
 ul{
     list-style: none;
 }
@@ -130,10 +126,6 @@ img{
     width: 200px;
 }
 
-.my_img-border-radius{
-    border-radius: 10px;
-}
-
 .my_logo-language{
     width: 20px;
 }
@@ -243,7 +235,7 @@ img{
 }
 
 .my_slide-up-thumbnail:hover img{
-    margin-top: -10px; 
+    margin-top: -5px; 
 }
 
 .my_ps5-opacity:hover{
@@ -282,6 +274,18 @@ img{
 
 .my_rem-08{
     font-size: 0.8rem;
+}
+
+.my_outline-img-game-list{
+    outline: 2px solid rgb(255, 255, 255);
+}
+
+.my_thumb-box-shadow{
+    box-shadow: 1px 1px 0 3px rgb(0, 114, 206), -1px -1px 0 3px rgb(0, 114, 206);
+}
+
+.my_border-radius-img{
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 767px){
